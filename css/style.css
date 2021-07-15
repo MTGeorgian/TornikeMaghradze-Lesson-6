@@ -1,8 +1,10 @@
 /* animation styles */
 .Animation-div{
-	
+	/*display: inline-block;*/
+	position: relative;
 }
 .background-img{
+	/*display: inline-block;*/
 	width: 100%;
 	position: relative;
 	z-index: -1;
@@ -10,19 +12,36 @@
 .bolid-1{
 	position: absolute;
 	left: 10px;
-	top: 100px;
+	bottom: 50px;
+	width: 100px;
+	transform: rotate3d(0, 0, 1, 180deg);
+	animation: bolid-1;
 }
 .bolid-2{
 	position: absolute;	
 	right: 10px;
-	top: 100px;
+	bottom: 50px;
+	width: 300px;
+	transform: rotate3d(0, 0, 1, 180deg);
+	animation: bolid-2 1 2s ease-out 0.5s;
 }
-.bolid-3{
+
+.flag{
 	position: absolute;
-	left: 350px;
-	top: 100px;	
+	top: 300px;
+	left: 300px;
+	width: 100px;
+	transform: translate(350%, 50%);
+	animation: flag infinite 2s ease-out .5s;
+	
 }
-.sun{
+.flag:hover{
+	cursor: pointer;
+	
+}
+.f1-logo{
 	position: absolute;	
-	left: 50px;
+	width: 150px;
+	transform: translate(50%, 50%) ;
+	animation: f1-logo infinite 3s ease-in-out 1s;
 }

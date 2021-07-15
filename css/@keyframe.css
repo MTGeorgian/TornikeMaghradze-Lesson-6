@@ -1,1 +1,14 @@
-@keyframe
+@keyframes bolid-2 {
+	from {right: 100px; bottom: 50px;}
+	to {right: 1000px; bottom: 50px;}
+}
+@keyframes flag {
+	0% {transform:translate(350%, 50%) rotate(0deg);}
+	50% {transform:translate(350%, 50%) rotate(45deg);}
+	100% {transform:translate(350%, 50%) rotate(0deg);} 
+}
+@keyframes f1-logo {
+	from {left: 0px; top: 30px; opacity: 0.1;}
+	50% { left: 40%; top: 30px; opacity: 1;transform: scale(1);}
+	to { left: 85%; top:30px; opacity: 0;}
+}
