@@ -1,5 +1,6 @@
 @keyframes bolid-1 {
-	
+	from {right: 1%; bottom: 18%; opacity: 0.3;}
+	to {right: 100%; bottom: 18%; opacity: 1;}
 }
 @keyframes bolid-2 {
 	from {right: 1%; bottom: 33%; opacity: 0.3;}

@@ -11,11 +11,11 @@
 }
 .bolid-1{
 	position: absolute;
-	left: 15%;
-	bottom: 23%;
-	width: 100px;
-	transform: rotate3d(0, 0, 1, 180deg);
-	animation: bolid-1;
+	right: 15%;
+	bottom: 18%;
+	width: 250px;
+	transform: rotate3d(0, 0, 1, 180deg) skew(10deg);
+	animation: bolid-1 infinite 2s ease;
 }
 .bolid-2{
 	position: absolute;	
@@ -31,17 +31,10 @@
 	top: 200px;
 	left: 300px;
 	width: 100px;
-	transform: translate(350%, 50%);
 	animation: flag infinite 2s ease-out .5s;
-	
-}
-.flag:hover{
-	cursor: pointer;
-	
 }
 .f1-logo{
 	position: absolute;	
 	width: 150px;
-	transform: translate(50%, 50%) ;
 	animation: f1-logo infinite 3s ease-in-out 1s;
 }
