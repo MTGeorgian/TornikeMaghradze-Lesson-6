@@ -1,0 +1,28 @@
+/* animation styles */
+.Animation-div{
+	
+}
+.background-img{
+	width: 100%;
+	position: relative;
+	z-index: -1;
+}
+.bolid-1{
+	position: absolute;
+	left: 10px;
+	top: 100px;
+}
+.bolid-2{
+	position: absolute;	
+	right: 10px;
+	top: 100px;
+}
+.bolid-3{
+	position: absolute;
+	left: 350px;
+	top: 100px;	
+}
+.sun{
+	position: absolute;	
+	left: 50px;
+}
