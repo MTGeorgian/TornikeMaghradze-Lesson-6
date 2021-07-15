@@ -1,6 +1,9 @@
+@keyframes bolid-1 {
+	
+}
 @keyframes bolid-2 {
-	from {right: 100px; bottom: 50px;}
-	to {right: 1000px; bottom: 50px;}
+	from {right: 1%; bottom: 33%; opacity: 0.3;}
+	to {right: 100%; bottom: 33%; opacity: 0.9;}
 }
 @keyframes flag {
 	0% {transform:translate(350%, 50%) rotate(0deg);}

@@ -11,24 +11,24 @@
 }
 .bolid-1{
 	position: absolute;
-	left: 10px;
-	bottom: 50px;
+	left: 15%;
+	bottom: 23%;
 	width: 100px;
 	transform: rotate3d(0, 0, 1, 180deg);
 	animation: bolid-1;
 }
 .bolid-2{
 	position: absolute;	
-	right: 10px;
-	bottom: 50px;
-	width: 300px;
-	transform: rotate3d(0, 0, 1, 180deg);
-	animation: bolid-2 1 2s ease-out 0.5s;
+	right: 1%;
+	bottom: 33%;
+	width: 250px;
+	transform: rotate3d(0, 0, 1, 180deg) skew(10deg);
+	animation: bolid-2 infinite 1.5s ease 0.5s;
 }
 
 .flag{
 	position: absolute;
-	top: 300px;
+	top: 200px;
 	left: 300px;
 	width: 100px;
 	transform: translate(350%, 50%);
